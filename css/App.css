@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.darkBackgroundDiv {
+    background-color: rgb(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.darkBackgroundDiv .modalDiv {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 50%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modalDiv .heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modalDiv .description {
+    margin-top: 2rem;
+}
+
+.modalDiv .reloadButton {
+    background-color: rgb(41, 43, 40);
+    color: white;
+    font-size: 1rem;
+    padding: .3rem .8rem;
+    border: 2px solid #242322;
+    border-radius: 5px;
+    height: 3rem;
+    box-shadow: rgba(56, 56, 56, 0.2) 0px 2px 8px 0px;
+    width: 8rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 2rem;
+}
+
+.modalDiv .reloadButton:hover {
+    opacity: .95;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width:1200px) {
+    .darkBackgroundDiv .modalDiv {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .darkBackgroundDiv .modalDiv {
+        width: 90%;
+        padding: 2rem 1rem;
+    }
+}

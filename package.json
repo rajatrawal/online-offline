@@ -1,0 +1,33 @@
+{
+  "name": "online-offline",
+  "version": "1.0.0",
+  "description": "a react package for geting online and offline status with extra features like callback functions,styled offline component etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react-online-offline",
+    "online-offline",
+    "check-online",
+    "is-online",
+    "check-offline",
+    "is-offline",
+    "check-network",
+    "is-online-react-hook",
+    "is-offline-react-hook",
+    "online-offline-react-hook",
+    "online-offline-react",
+    "online-offline-react-component"
+  ],
+  "author": "Rajat Rawal",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  }
+}
